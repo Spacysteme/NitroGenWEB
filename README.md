@@ -13,12 +13,6 @@ Générateur de codes Discord Nitro — version web.
 
 ---
 
-## 🖥️ Aperçu
-
-![aperçu](https://github.com/Spacysteme/NitroGenWEB/assets/preview.png)
-
----
-
 ## ⚙️ Technologies utilisées
 
 - [Next.js](https://nextjs.org/) — Framework React pour le rendu côté serveur.
@@ -106,7 +100,6 @@ NitroGenWEB/
 
 - [ ] Ajout d'une fonctionnalité de vérification de validité des codes.
 - [ ] Intégration d'une base de données pour stocker les codes générés.
-- [ ] Déploiement sur une plateforme cloud (Vercel, Netlify, etc.).
 
 ---
 
