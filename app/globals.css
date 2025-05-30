@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 142 84% 45%;
+}
+
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+}
+
+/* Custom scrollbar for terminal effect */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00aa00;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff00;
+}
+
+/* Override shadcn defaults for our theme */
+.tabs-content {
+  margin-top: 0 !important;
+}
