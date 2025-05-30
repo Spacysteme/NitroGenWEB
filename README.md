@@ -1,6 +1,7 @@
 # 🚀 NitroGenWEB
 
-Générateur de codes Discord Nitro — version web.
+Discord Nitro Generateur — version web.
+- [Projet original](https://github.com/Spacysteme/NitroGen) en python.
 
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
