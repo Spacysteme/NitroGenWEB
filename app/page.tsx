@@ -35,7 +35,7 @@ export default function Home() {
 
     generatorInterval.current = setInterval(() => {
       const code = generateCode()
-      const isValid = Math.floor(Math.random() * 550) === 1
+      const isValid = Math.floor(Math.random() * 1050) === 1
 
       setScannedCount((prev) => prev + 1)
       setGeneratedCodes((prev) => {
@@ -210,19 +210,23 @@ export default function Home() {
                   <p className="mb-6">Version: v2</p>
 
                   <div className="flex justify-center gap-4 mt-8">
-                    <Button variant="outline" className="border-green-500 text-green-500 hover:bg-green-950 flex gap-2">
-                      <MessageSquare size={18} />
-                      Discord
-                    </Button>
-                    <Button variant="outline" className="border-green-500 text-green-500 hover:bg-green-950 flex gap-2">
-                      <Github size={18} />
-                      GitHub
-                    </Button>
+                    <a href="https://discord.gg/XD8M2AGrNA" target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" className="border-green-500 text-green-500 hover:bg-green-950 flex gap-2">
+                        <MessageSquare size={18} />
+                        Discord
+                      </Button>
+                    </a>
+                    <a href="https://github.com/Spacysteme/NitroGenWEB" target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" className="border-green-500 text-green-500 hover:bg-green-950 flex gap-2">
+                        <Github size={18} />
+                        GitHub
+                      </Button>
+                    </a>
                   </div>
 
                   <div className="mt-12 p-4 border border-green-900 text-sm">
                     <p className="text-yellow-500">⚠️ WARNING: Do not leave the software on for too long!</p>
-                    <p className="text-yellow-500">Risk of computer self-destruction.</p>
+                    <p className="text-yellow-500">Risk of unnecessary addictions.</p>
                   </div>
                 </div>
               </div>

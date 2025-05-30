@@ -1,30 +1,134 @@
-# Nitro generator code
+# 🚀 NitroGenWEB
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Générateur de codes Discord Nitro — version web.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/spacystemes-projects/v0-nitro-generator-code)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ykPeLQXQVKQ)
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🧠 Présentation
 
-## Deployment
+**NitroGenWEB** est une application web conçue pour générer des codes Discord Nitro. Elle a été développée avec l'aide d'une intelligence artificielle, offrant une interface moderne et responsive. Ce projet est destiné à des fins éducatives et de démonstration.
 
-Your project is live at:
+---
 
-**[https://vercel.com/spacystemes-projects/v0-nitro-generator-code](https://vercel.com/spacystemes-projects/v0-nitro-generator-code)**
+## 🖥️ Aperçu
 
-## Build your app
+![aperçu](https://github.com/Spacysteme/NitroGenWEB/assets/preview.png)
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/ykPeLQXQVKQ](https://v0.dev/chat/projects/ykPeLQXQVKQ)**
+## ⚙️ Technologies utilisées
 
-## How It Works
+- [Next.js](https://nextjs.org/) — Framework React pour le rendu côté serveur.
+- [React](https://reactjs.org/) — Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- [Tailwind CSS](https://tailwindcss.com/) — Framework CSS utilitaire pour un design rapide.
+- [Lucide React](https://lucide.dev/) — Icônes SVG pour React.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 📦 Installation
+
+### Prérequis
+
+- [Node.js](https://nodejs.org/) (version 16 ou supérieure)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+### Étapes
+
+1. Clone le dépôt :
+
+   ```bash
+   git clone https://github.com/Spacysteme/NitroGenWEB.git
+   cd NitroGenWEB
+   ```
+
+2. Installe les dépendances :
+
+   ```bash
+   npm install
+   ```
+
+   ou avec yarn :
+
+   ```bash
+   yarn install
+   ```
+
+3. Lance le serveur de développement :
+
+   ```bash
+   npm run dev
+   ```
+
+   ou avec yarn :
+
+   ```bash
+   yarn dev
+   ```
+
+4. Ouvre ton navigateur à l'adresse [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📄 Fonctionnalités
+
+- Génération de codes Discord Nitro.
+- Interface utilisateur moderne et responsive.
+- Navigation fluide avec des onglets.
+- Intégration d'icônes via Lucide React.
+
+---
+
+## 📁 Structure du projet
+
+```bash
+NitroGenWEB/
+├── app/
+│   ├── page.tsx
+│   └── ...
+├── components/
+│   ├── Button.tsx
+│   └── ...
+├── public/
+│   └── ...
+├── styles/
+│   └── globals.css
+├── tsconfig.json
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚧 Roadmap
+
+- [ ] Ajout d'une fonctionnalité de vérification de validité des codes.
+- [ ] Intégration d'une base de données pour stocker les codes générés.
+- [ ] Déploiement sur une plateforme cloud (Vercel, Netlify, etc.).
+
+---
+
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues ! Pour contribuer :
+
+1. Fork le projet.
+2. Crée une branche pour ta fonctionnalité (`git checkout -b feature/AmazingFeature`).
+3. Commits tes changements (`git commit -m 'Add some AmazingFeature'`).
+4. Push la branche (`git push origin feature/AmazingFeature`).
+5. Ouvre une Pull Request.
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+
+---
+
+## 📬 Contact
+
+Créé par [Spacy131](https://github.com/Spacysteme) — n'hésite pas à me contacter via discord pour toute question !
+> spacy.ws
